@@ -1,10 +1,4 @@
 import scrapy
-from scrapy.spiders import CrawlSpider, Rule
-from scrapy.linkextractors import LinkExtractor
-# https://www.eventseye.com/fairs/t1_trade-shows_jewellery-watch-making-gifts.html
-#https://www.eventseye.com/fairs/f-fashionista-lifestyle-exhibition-rajkot-28346-1.html
-
-
 
 class Eventseye(scrapy.Spider):
     name = "eventseye"
