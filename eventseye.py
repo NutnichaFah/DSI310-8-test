@@ -2,7 +2,6 @@ import scrapy
 
 class Eventseye(scrapy.Spider):
     name = "eventseye"
-    # start_urls = ['https://www.eventseye.com/fairs/st1_trade-shows_jewelry.html']
     start_urls = [
         'https://www.eventseye.com/fairs/st1_trade-shows_jewelry.html',
         'https://www.eventseye.com/fairs/st1_trade-shows_jewelry_1.html',
