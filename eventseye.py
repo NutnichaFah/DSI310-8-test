@@ -13,9 +13,9 @@ class Eventseye(scrapy.Spider):
         for event in response.css('tr'):
             yield {
                 'Exhibition_Name': event.css('b::text').get(),
-                'describe': event.css('i::text').get(),
-                'city': event.css('a.city::text').get(),
-                'place': event.css('a.place::text').get(),
+                'Describe': event.css('i::text').get(),
+                'City': event.css('a.city::text').get(),
+                'Place': event.css('a.place::text').get(),
 
             }
 
